@@ -38,3 +38,9 @@ mysql -u python -p
 
     # table 목록 확인
     show tables;
+    
+    # songs table의 구조 확인
+    desc songs;
+
+    select 곡명 from songs;
+    select 곡명 from songs where 가수 = '방탄소년단';
