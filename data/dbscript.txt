@@ -42,5 +42,12 @@ mysql -u python -p
     # songs table의 구조 확인
     desc songs;
 
+    # product table 생성
+    desc product
+
     select 곡명 from songs;
     select 곡명 from songs where 가수 = '방탄소년단';
+    select 곡명,장르 from songs where 가수 = '방탄소년단';
+
+    select title, singer from songs100 where id < 10;
+    select id,title,singer,album from songs100 where album like '%OST%';
