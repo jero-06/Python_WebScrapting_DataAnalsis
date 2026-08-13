@@ -6,3 +6,4 @@ img.html
 *.jpg
 .env
 data/*.xlsx
+mp3/
