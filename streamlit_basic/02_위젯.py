@@ -7,7 +7,7 @@ st.title('02. 위젯 - 입력값 받기')
 # 각 위젯은 '사용자가 고른 값' 을 반환한다
 name = st.text_input('이름을 입력하세요', value='홍길동')
 age = st.slider('나이', min_value=0, max_value=100, value=25)
-city = st.selectbox('도시', ['서울', '부산', '대구'])
+city = st.selectbox('도시', ['서울', '부산', '대구', '대전'])
 hobbies = st.multiselect('취미', ['독서', '운동', '게임', '음악'])
 agree = st.checkbox('약관에 동의합니다')
 gender = st.radio('성별', ['남', '여'], horizontal=True)
